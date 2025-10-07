@@ -1,16 +1,6 @@
 services:
 
   monolith:
-    image: ghcr.io/optivem/atdd-accelerator-template/monolith-dotnet:latest
+    image: ghcr.io/valentinajemuovic/repo-31a07201-b982-49bb-b594-df88cc4bc253/monolith-typescript:latest
     ports:
-      - "8080:80"
-
-  # monolith:
-  #   image: ghcr.io/optivem/atdd-accelerator-template/monolith-java:latest
-  #   ports:
-  #     - "8080:8080"
-
-  # monolith:
-  #   image: ghcr.io/optivem/atdd-accelerator-template/monolith-typescript:latest
-  #   ports:
-  #     - "8080:3000"
+      - "8080:3000"
